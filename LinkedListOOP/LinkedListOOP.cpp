@@ -177,6 +177,17 @@ int main()
 				cout << "\nNo Mahasiswa: " << current->noMhs;
 			}
 		}
+		break;
+		case '5':
+		{
+			exit(0);
+		}
+		break;
+		default:
+		{
+			cout << "Pilihan salah !." << endl;
+		}
+		break;
 		}
 	}
 }
