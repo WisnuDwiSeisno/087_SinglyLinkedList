@@ -115,3 +115,7 @@ void List::traverse()
 		cout << endl;
 	}
 }
+int main()
+{
+	List mhs;
+}
