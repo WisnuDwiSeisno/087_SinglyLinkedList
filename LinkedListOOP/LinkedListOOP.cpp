@@ -23,3 +23,9 @@ public:
 List::List() {
 	START = NULL;
 }
+void List::addNode() /*Menambah sebuah Node kedalam list*/ 
+{
+	int nim;
+	char nm[20];
+	cout << "\nMasukan Nomor Mahasiswa: "
+}
