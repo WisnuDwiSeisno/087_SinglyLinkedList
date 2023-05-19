@@ -42,7 +42,7 @@ void List::addNode() /*Menambah sebuah Node kedalam list*/
 			cout << "\nDuplikasi noMhs tidak diijinkan\n";
 			return;
 		}
-		nodeBaru = > next = START;
+		nodeBaru -> next = START;
 		START = nodeBaru;
 		return;
 	}
@@ -98,4 +98,9 @@ bool List::Search(int nim, Node** previous, Node** current)
 		*current = (*current)->next;
 	}
 	return (*current != NULL);
+}
+
+void List::traverse()
+{
+
 }
